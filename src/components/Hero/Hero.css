@@ -8,3 +8,15 @@ h2 {
     line-height: 128px;
     color: var(--green);
 }
+
+h3 {
+    color: var(--white);
+}
+
+h4 {
+    color: var(--purple);
+}
+
+.arrow-icon {
+    vertical-align: middle;
+}
