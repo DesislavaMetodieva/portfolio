@@ -7,6 +7,8 @@ h2 {
     font-size: 120px;
     line-height: 128px;
     color: var(--green);
+    margin-bottom: 0;
+    margin-top: 80px;
 }
 
 h3 {
@@ -14,6 +16,8 @@ h3 {
     font-size: 56px;
     line-height: 64px;
     color: var(--white);
+    margin-top: 48px;
+    margin-bottom: 0;
 }
 
 h4 {
@@ -21,8 +25,14 @@ h4 {
     font-size: 24px;
     line-height: 32px;
     color: var(--purple);
+    margin-top: 48px;
+    margin-bottom: 0;
 }
 
 .arrow-icon {
     vertical-align: middle;
+}
+.titles {
+    display: flex;
+    flex-direction: column;
 }
