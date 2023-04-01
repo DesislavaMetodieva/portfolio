@@ -1,6 +1,5 @@
 import React from "react";
 import './Hero.css'
-import { FaArrowDown } from 'react-icons/fa';
 
 const Hero = () => {
     return (
@@ -10,7 +9,7 @@ const Hero = () => {
                 <h2>__METODIEVA</h2>
             </div>
                 <h3>/ WEB DEVELOPER</h3>
-                <h4>/ LONDON UK <FaArrowDown className="arrow-icon"/></h4>
+                <h4>/ LONDON UK ↓</h4>
         </section>
     );
   };
