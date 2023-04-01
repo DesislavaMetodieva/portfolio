@@ -3,7 +3,10 @@ import './Hero.css'
 
 const Hero = () => {
     return (
-      <h2>Hello World</h2>
+         <div>
+          <h2>DESI_</h2>
+          <h2>__METODIEVA</h2>
+        </div>
     );
   };
   
