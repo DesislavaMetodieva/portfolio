@@ -1,0 +1,15 @@
+:root {
+    --green: #00FFA8;
+    --white: #FFFFFF;
+    --purple: #B337FF;
+}
+
+body {
+    margin: 0;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+

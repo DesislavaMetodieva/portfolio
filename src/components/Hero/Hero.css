@@ -1,0 +1,10 @@
+body {
+    max-height: 650px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 120px;
+    line-height: 128px;
+    color: var(--green);
+}
