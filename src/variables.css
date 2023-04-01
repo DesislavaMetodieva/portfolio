@@ -9,6 +9,9 @@ body {
     font-family: 'IBM Plex Mono';
     font-style: normal;
     font-weight: 400;
+    background-image: url(../assets/back.jpg);
+    background-repeat: repeat;
+    opacity: 0.2;  
 }
 
 
