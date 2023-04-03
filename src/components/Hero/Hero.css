@@ -1,6 +1,6 @@
-body {
+/* body {
     max-height: 650px;
-}
+} */ 
 
 h2 {
     font-weight: 500;
@@ -37,6 +37,8 @@ h4 {
 .titles {
     display: flex;
     flex-direction: row;
+    max-height: 927px;
+    margin-left: 160px;
 }
 
 .titles-items {
@@ -52,4 +54,6 @@ h4 {
 .hero-image {
     mix-blend-mode: screen;
 }
-
+img {
+    object-fit: cover;
+}
