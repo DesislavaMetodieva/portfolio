@@ -27,12 +27,29 @@ h4 {
     color: var(--purple);
     margin-top: 48px;
     margin-bottom: 0;
+    align-self: center;
 }
 
 .arrow-icon {
     vertical-align: middle;
 }
+
 .titles {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
+
+.titles-items {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.titles-items > *:last-child {
+    align-items: center;
+}
+
+.hero-image {
+    mix-blend-mode: screen;
+}
+
