@@ -1,0 +1,13 @@
+h5 {
+    color: var(--white);
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 128px;
+}
+
+.project-container {
+    padding-left: 160px;
+    width: 100%;
+    min-height: 240px;
+} 

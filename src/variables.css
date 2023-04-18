@@ -10,8 +10,6 @@ body {
     font-style: normal;
     font-weight: 400;
     background-color: black; 
-    overflow: hidden;
-    min-height: 100vh !important;
 }
 
    body::before {
