@@ -37,8 +37,9 @@ h4 {
 .titles {
     display: flex;
     flex-direction: row;
-    max-height: 927px;
-    margin-left: 160px;
+    max-height: 740px;
+    overflow: hidden;
+    padding-left: 160px;
 }
 
 .titles-items {
@@ -54,6 +55,15 @@ h4 {
 .hero-image {
     mix-blend-mode: screen;
 }
+
 img {
     object-fit: cover;
 }
+
+hr {
+    height: 0px;
+    border: none;
+    border-top: 1px solid #FFFFFf;
+    opacity: 50%;
+}
+

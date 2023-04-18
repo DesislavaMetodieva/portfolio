@@ -14,6 +14,7 @@ const Hero = () => {
             <div className="hero-image">
         <img src={ProfilePicture} alt={"desi-author-face"} />
       </div>
+      <hr></hr>
         </section>
     );
   };

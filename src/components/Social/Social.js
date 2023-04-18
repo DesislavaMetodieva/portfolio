@@ -9,7 +9,7 @@ const Social = () => {
     return (
         
     <div className="social-container">
-        <div style={{ borderTop: "2px solid #fff " }}>
+        <div>
        </div>  
        <Link href="https://github.com/DesislavaMetodieva" target="_blank" rel="noopener" >
           <img src={GitHub} alt={GitHub} />
