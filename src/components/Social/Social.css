@@ -1,3 +1,22 @@
 .social-container {
-    height: 40px;
+    padding-left: 160px;
+    margin: 24px 0;
 } 
+
+.social-link {
+    color: var(--white);
+    font-family: 'IBM Plex Mono';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 8px;
+    padding-right: 48px;
+}
+
+.half-line {
+    width: 50%;
+    margin: 0 auto;
+    border-top: 1px solid #FFFFFf;
+    opacity: 0.5;
+    float: left;
+}
