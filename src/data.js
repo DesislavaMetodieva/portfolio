@@ -9,8 +9,8 @@ export const projects = [
   },
   {
     id: 1,
-    title: "My React portfolio",
-    repoLink: "https://github.com/DesislavaMetodieva/my-react-portfolio",
+    title: "Readme Generator",
+    repoLink: "https://github.com/DesislavaMetodieva/readme-generator",
     image: "./bootstrap-portfolio.jpg",
   },
   {
