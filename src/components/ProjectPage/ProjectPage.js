@@ -7,7 +7,7 @@ const ProjectPage = ({ index, imageUrl, title, repoLink }) => {
     <div className="project-item">
       <p className="index">[/> {index}</p>
       <h6>░ ░ ░ {title} ░ ░ ░</h6>
-      <a className="link-repo" href={repoLink}>
+      <a className="link-repo" href={repoLink} target="_blank" rel="noreferrer">
         Visit site <span><img src={triangle} alt="Triangle icon" /> → </span>
       </a>
     </div>

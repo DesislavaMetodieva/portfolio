@@ -1,5 +1,4 @@
-// Needs update on the image data for each project
-// Potentially remove description and repoLink
+
 export const projects = [
   {
     id: 0,

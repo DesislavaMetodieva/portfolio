@@ -8,17 +8,19 @@ const Project = () => {
     return (
      <div className="project-container">
         <h5>PROJECTS</h5>
-        {projects.map((project, index) => (
-       
-       <ProjectPage
-         key={index}
-         index = {index + 1}
-         title={project.title}
-         imageUrl={project.image}
-         repoLink={project.repoLink}
-       />
-      
-     ))}
+         <div>
+            {projects.map((project, index) => (
+            
+            <ProjectPage
+               key={project.id}
+               index={project.id + 1}
+               title={project.title}
+               imageUrl={project.image}
+               repoLink={project.repoLink}
+            />
+            
+         ))}
+      </div>
      </div>
      
     );
