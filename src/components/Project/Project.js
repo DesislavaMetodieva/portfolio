@@ -8,10 +8,11 @@ const Project = () => {
     return (
      <div className="project-container">
         <h5>PROJECTS</h5>
-        {projects.map((project) => (
+        {projects.map((project, index) => (
        
        <ProjectPage
-         key={project.id}
+         key={index}
+         index = {index + 1}
          title={project.title}
          imageUrl={project.image}
          repoLink={project.repoLink}
