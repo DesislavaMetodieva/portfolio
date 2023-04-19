@@ -14,4 +14,6 @@ h6 {
 
 .index {
     color: var(--purple);
+    font-weight: 400;
+    font-size: 32px;
 }
