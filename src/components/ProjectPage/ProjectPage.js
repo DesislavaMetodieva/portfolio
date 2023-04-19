@@ -1,11 +1,15 @@
 import React from "react"
 import "./ProjectPage.css"
+// import { triangle } from "../../assets/triangle.svg"
 
-const ProjectPage = ({ imageUrl, title, repoLink }) => {
+const ProjectPage = ({ key, imageUrl, title, repoLink }) => {
    
     return (
      <div className="project-item">
-        <h5>test</h5>
+        <h6>░ ░ ░ {title} ░ ░ ░</h6>
+        <a className="link-repo" href={repoLink}>
+            Visit site 
+        </a>
      </div>
     );
   };
