@@ -5,7 +5,7 @@ const Project = () => {
 
     return (
      <div className="project-container">
-        <h5>Projects</h5>
+        <h5>PROJECTS</h5>
      </div>
     );
   };

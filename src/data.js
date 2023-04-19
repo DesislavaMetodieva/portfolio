@@ -9,13 +9,13 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Readme Generator",
+    title: "README Generator App",
     repoLink: "https://github.com/DesislavaMetodieva/readme-generator",
     image: "./bootstrap-portfolio.jpg",
   },
   {
     id: 2,
-    title: "My Bootstrap portfolio",
+    title: "My Bootstrap Portfolio",
     repoLink: "https://github.com/DesislavaMetodieva/Bootstrap-Portfolio",
     image: "./bootstrap-portfolio.jpg",
   },
@@ -27,7 +27,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Password generator app",
+    title: "Password Generator App",
     repoLink: "https://github.com/DesislavaMetodieva/Password-generator",
     image: "./password-generator.jpg",
   },
@@ -36,11 +36,5 @@ export const projects = [
     title: "MoodMovies",
     repoLink: "https://github.com/heirfanahmed/mood-movies",
     image: "./mood-movies.jpg",
-  },
-  {
-    id: 6,
-    title: "README generator app",
-    repoLink: "https://github.com/DesislavaMetodieva/readme-generator",
-    image: "./readme-generator.jpg",
   }
 ];
