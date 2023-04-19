@@ -3,6 +3,7 @@ import Hero from './components/Hero/Hero'
 import Social from './components/Social/Social';
 import Footer from './components/Footer/Footer';
 import Project from './components/Project/Project';
+import ProjectPage from './components/ProjectPage/ProjectPage';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Social />
       <Project />
+      <ProjectPage />
       <Footer />
     
     </div>
