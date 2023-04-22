@@ -21,3 +21,9 @@ h6 {
 /* .project-item {
     max-width: 1280px;
 } */
+
+.project-listing {
+    color: var(--purple);
+    font-weight: 400;
+    font-size: 32px;
+}
