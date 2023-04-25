@@ -23,9 +23,8 @@ h3 {
 h4 {
     font-weight: 500;
     font-size: 24px;
-    line-height: 32px;
     color: var(--purple);
-    margin-top: 48px;
+    margin-top: 0;
     margin-bottom: 0;
     align-self: center;
 }
@@ -65,5 +64,12 @@ hr {
     border: none;
     border-top: 1px solid #FFFFFf;
     opacity: 50%;
+}
+
+.bio {
+    color: var(--white);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
 }
 
