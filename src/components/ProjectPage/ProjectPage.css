@@ -1,4 +1,4 @@
-h6 {
+.title {
     color: var(--white);
     font-family: 'IBM Plex Mono';
     font-weight: 400;
@@ -12,7 +12,7 @@ h6 {
     text-decoration: none;
 }
 
-.index {
+.index-sign {
     color: var(--purple);
     font-weight: 400;
     font-size: 32px;
@@ -22,8 +22,16 @@ h6 {
     max-width: 1280px;
 } */
 
-.project-listing {
+.project-index {
     color: var(--purple);
     font-weight: 400;
     font-size: 32px;
+}
+
+.shaded-block {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--white);
 }
