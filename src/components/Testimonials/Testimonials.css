@@ -1,3 +1,33 @@
 .testimonial-container {
     color: white;
 }
+
+.testimonial-box {
+    padding-top: 80px;
+    margin: 0 auto;
+    align-content: center;
+    max-width: 680px;
+}
+
+.quote-text {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.author-p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--purple);
+    margin-bottom: 4px;
+}
+
+.role-p {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--purple);
+}

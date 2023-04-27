@@ -25,8 +25,8 @@ const Testimonials = () => {
       </div>
       <div className="testimonial-container">
         <p className="quote-text">{currentTestimonial.text}</p>
-        <p className="author">{currentTestimonial.author}</p>
-        <p className="author">{currentTestimonial.role}</p>
+        <p className="author-p">{currentTestimonial.author}</p>
+        <p className="role-p">{currentTestimonial.role}</p>
       </div> 
     </div>
   );
