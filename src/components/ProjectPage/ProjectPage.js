@@ -13,6 +13,7 @@ const ProjectPage = () => {
           <a className="link-repo" href={project.repoLink} target="_blank" rel="noreferrer">
             Visit site <span><img src={triangle} alt="Triangle icon" /> → </span>
           </a>
+          <hr />
         </div>  
     </div> 
   ))
