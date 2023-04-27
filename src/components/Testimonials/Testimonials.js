@@ -27,7 +27,6 @@ const Testimonials = () => {
         <p className="quote-text">{currentTestimonial.text}</p>
         <p className="author">{currentTestimonial.author}</p>
         <p className="author">{currentTestimonial.role}</p>
-        <p className="author">{currentTestimonial.relation}</p>
       </div> 
     </div>
   );
