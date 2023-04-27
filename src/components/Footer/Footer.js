@@ -11,7 +11,7 @@ const Footer = () => {
   
   return (
     <div className="footer">
-     Copyright {theYear} | Made in rainy London
+     © Copyright {theYear} | Made in rainy London
     </div>
   )
   };
