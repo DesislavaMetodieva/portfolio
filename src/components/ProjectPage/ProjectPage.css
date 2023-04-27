@@ -18,6 +18,13 @@
     color: var(--purple);
     font-weight: 400;
     font-size: 32px;
+    width: 72px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.project-box{
+    display: inline-block;
 }
 
 .project-index {

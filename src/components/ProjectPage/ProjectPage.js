@@ -12,9 +12,9 @@ const ProjectPage = () => {
           <p className="title"><span className="shaded-block">░ ░ ░</span> {project.title} <span className="shaded-block">░ ░ ░</span></p>
           <a className="link-repo" href={project.repoLink} target="_blank" rel="noreferrer">
             Visit site <span><img src={triangle} alt="Triangle icon" /> → </span>
-          </a>
-          <hr />
-        </div>  
+          </a> 
+        </div> 
+        <hr /> 
     </div> 
   ))
   return (
