@@ -1,3 +1,7 @@
+* {
+    cursor: none;
+  }
+
 :root {
     --green: #00FFA8;
     --white: #FFFFFF;
