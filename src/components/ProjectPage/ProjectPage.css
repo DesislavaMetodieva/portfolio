@@ -40,3 +40,7 @@
     font-size: 32px;
     color: var(--white);
 }
+
+.summary {
+    color: var(--white);
+}

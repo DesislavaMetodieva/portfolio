@@ -10,6 +10,7 @@ const ProjectPage = () => {
         <div className="project-box">
           <p className="project-index">{project.id + 1}</p>
           <p className="title"><span className="shaded-block">░ ░ ░</span> {project.title} <span className="shaded-block">░ ░ ░</span></p>
+        
           <a className="link-repo" href={project.repoLink} target="_blank" rel="noreferrer">
             Visit site <span><img src={triangle} alt="Triangle icon" /> → </span>
           </a> 

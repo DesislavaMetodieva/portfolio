@@ -12,3 +12,9 @@ h5 {
     width: auto;
     min-height: 240px;
 } 
+
+.project-title {
+    margin-left: 160px;
+    margin-right: 160px;
+    width: auto;
+}

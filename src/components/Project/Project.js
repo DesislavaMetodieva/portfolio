@@ -6,7 +6,7 @@ import "./Project.css"
 const Project = () => {
    console.log(projects);
     return (
-      <div className="project-container">
+      <div className="project-title">
          <h5>PROJECTS</h5>
       </div>
     );
